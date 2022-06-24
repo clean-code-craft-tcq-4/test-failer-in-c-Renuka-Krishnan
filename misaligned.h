@@ -6,6 +6,9 @@ int printColorMap(void(*ReferenceManualFunPtr)(int,int));
 void print(int MajorColorIndex, int MinorColorIndex);
 void TestPrintColorMap(int MajorColorIndex, int MinorColorIndex);
 
+const char* majorColor[] = {"White", "Red", "Black", "Yellow", "Violet"};
+const char* minorColor[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
+
 struct ColorCode
 {
     int PairNumber;
@@ -14,5 +17,4 @@ struct ColorCode
 };
 ColorCode Manual[26];
 
-const char* majorColor[] = {"White", "Red", "Black", "Yellow", "Violet"};
-const char* minorColor[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
+
