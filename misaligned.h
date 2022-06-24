@@ -3,6 +3,7 @@
 #include <assert.h>
 
 int printColorMap(void(*ReferenceManualFunPtr)(int,int));
+void print(int MajorColorIndex, int MinorColorIndex);
 void TestPrintColorMap(int MajorColorIndex, intMinorColorIndex);
 
 struct ColorCode
