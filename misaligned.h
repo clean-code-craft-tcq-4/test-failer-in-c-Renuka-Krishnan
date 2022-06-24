@@ -4,7 +4,7 @@
 
 int printColorMap(void(*ReferenceManualFunPtr)(int,int));
 void print(int MajorColorIndex, int MinorColorIndex);
-void TestPrintColorMap(int MajorColorIndex, intMinorColorIndex);
+void TestPrintColorMap(int MajorColorIndex, int MinorColorIndex);
 
 struct ColorCode
 {
